@@ -34,15 +34,16 @@
 
 <body>
 
-  <div id="loginContainer">
-    <socialButtons>
-      <a class="btn btn-block btn-social btn-google" onclick="googleLogin()">
-        <span class="fa fa-google"></span> Sign in with Google
-      </a>
+  <div id="loginContainer" class="disabledbutton carousel-caption">
+    <socialButtons class="text-center">
+        <div class="col text-center">
 
-      <a class="btn btn-block btn-social btn-github" onclick="githubLogin()">
-        <span class="fa fa-github"></span> Sign in with GitHub
-      </a>
+      <a class="btn btn-primary btn-google" onclick="googleLogin()"><span class="fa fa-google"></span> Sign in with Google</a>   
+        </div>
+        <div class="col text-center">
+
+      <a class="btn btn-primary btn-github" onclick="githubLogin()"><span class="fa fa-github"></span> Sign in with GitHub</a>
+        </div>
     </socialButtons>
     <main class="mdl-layout__content mdl-color--grey-100 email-login">
       <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
@@ -56,37 +57,32 @@
           <div class="mdl-card__supporting-text mdl-color-text--grey-600">
             <p>Enter an email and password below and either sign in to an existing account or sign up</p>
 
-            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email"
+            <input class="form-control form-control-lg" style="display:inline;width:auto;" type="text" id="email" name="email"
               placeholder="Email" />
             &nbsp;&nbsp;&nbsp;
-            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password"
+            <input class="form-control form-control-lg" style="display:inline;width:auto;" type="password" id="password"
               name="password" placeholder="Password" />
             <br /><br />
 
-            <div class="d-flex flex-column">
-              <div class="d-flex flex-row">
-                <div class="p-2"><button disabled class="mdl-button mdl-js-button mdl-button--raised"
-                    id="quickstart-sign-in" name="signin">Sign In</button></div>
-                <div class="p-2"><button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-up"
-                    name="signup">Sign Up</button></div>
-              </div>
+            <div class="col text-center">
 
-              <div class="d-flex flex-row">
-                <div class="p-2"> <button class="mdl-button mdl-js-button mdl-button--raised" disabled
-                    id="quickstart-verify-email" name="verify-email">Send Email Verification</button></div>
-                <div class="p-2">
-                  <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset"
-                    name="verify-email">Send Password Reset Email</button></div>
-              </div>
+            <button type="button" disabled class="btn btn-primary accountButton" id="quickstart-sign-in" name="signin">Sign In</button>
+            <button type="button" class="btn btn-primary accountButton" id="quickstart-sign-up" name="signup">Sign Up</button>      
+            </div>
+            <div class="col text-center">
+
+            <button type="button" class="btn btn-primary accountButton" disabled id="quickstart-verify-email" name="verify-email">Send Email Verification</button>
+            <button type="button" class="btn btn-primary accountButton" id="quickstart-password-reset" name="verify-email">Send Password Reset Email</button>
+            </div>
+
             </div>
             <!-- <div class="quickstart-user-details-container"> -->
-              Sign-in as: <span id="quickstart-sign-in-status">Unknown</span>
+              <!-- Sign-in as: <span id="quickstart-sign-in-status">Unknown</span> -->
               <!-- <pre><code id="quickstart-account-details">null</code></pre> -->
             </div>
           </div>
-        </div>
     </main>
-  </div>
+    </div>
 
 
 

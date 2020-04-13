@@ -1,5 +1,4 @@
 
-
 function toggleSignIn() {
     if (firebase.auth().currentUser) {
       firebase.auth().signOut();
@@ -74,20 +73,22 @@ function toggleSignIn() {
     });
   }
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyBxvBY-hT2DigCnNSY-t4_YQGIG5R4SGfw",
+    authDomain: "geotag-8dae5.firebaseapp.com",
+    databaseURL: "https://geotag-8dae5.firebaseio.com",
+    projectId: "geotag-8dae5",
+    storageBucket: "geotag-8dae5.appspot.com",
+    messagingSenderId: "649673377801",
+    appId: "1:649673377801:web:babf09388cdd79387d10d8",
+    measurementId: "G-C8BT8GRT0C"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+
+
 function initApp() {
-    const firebaseConfig = {
-        apiKey: "AIzaSyBxvBY-hT2DigCnNSY-t4_YQGIG5R4SGfw",
-        authDomain: "geotag-8dae5.firebaseapp.com",
-        databaseURL: "https://geotag-8dae5.firebaseio.com",
-        projectId: "geotag-8dae5",
-        storageBucket: "geotag-8dae5.appspot.com",
-        messagingSenderId: "649673377801",
-        appId: "1:649673377801:web:babf09388cdd79387d10d8",
-        measurementId: "G-C8BT8GRT0C"
-      };
-
-      firebase.initializeApp(firebaseConfig);
-
+   
       console.log(firebase);
 
    firebase.auth().onAuthStateChanged(function(user) {
@@ -131,12 +132,9 @@ function initApp() {
 
   window.onload = function() {
     initApp();
+
   }
 
-
-document.addEventListener("DOMContentLoaded", event => {
-    const app = firebase.app();
-});
 
 function googleLogin() {
     if (!firebase.auth().currentUser) {
