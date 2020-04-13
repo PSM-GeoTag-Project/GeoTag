@@ -1,8 +1,12 @@
 
 .btn-block{
-    margin-top: 30%;
     width: 220px;
-    margin-left: 45%;
+}
+
+.btn-google{
+    background-color: #ffb300;
+    width: 270px;
+    border: none;
 }
 
 .btn-google:hover{
@@ -10,15 +14,42 @@
     color: #ffffff !important;
 }
 
+.btn-github{
+    background-color: #ffb300;
+    width: 270px;
+    border: none;
+    margin-top: 10px;
+
+}
+
 .btn-github:hover{
     background-color: #424242;
     color: #ffffff !important;
 }
 
+.accountButton{
+    background-color: #424242;
+    color: #ffffff !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 255px;
+    margin-left: 10px;
+    }
+
 .email-login{
     margin-top: 40px;
-    width: 600px;
-    margin-left: 35%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -65,7 +96,6 @@ img {
 .carousel-caption{
     position:absolute;
     top:30%;
-    left: 14%;
 }
 
 h1 {
@@ -96,8 +126,6 @@ h3 {
 }
 
 .button {
-    top: 45%;
-    left: 46%;
     position: absolute;
     width: 140px;
     height: 45px;
@@ -141,4 +169,10 @@ position: relative; z-index: 4000;
     pointer-events: none;
      transition: .5s ease;
     opacity: 0;
+}
+
+.enablebutton {
+    pointer-events: auto;
+     transition: 1s ease;
+    opacity: 100;
 }

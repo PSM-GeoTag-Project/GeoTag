@@ -8,6 +8,16 @@ function pageVerticalResolution() {
 
 window.onresize = pageVerticalResolution;
 
-function trans() {
+function transHide() {
 $("#welcomeText").addClass("disabledbutton");
 }
+
+function transShow() {
+    var element = document.getElementById("loginContainer");
+    element.classList.remove("disabledbutton");
+
+}
+
+function transShow() {
+    $("#loginContainer").addClass("enablebutton");
+    }

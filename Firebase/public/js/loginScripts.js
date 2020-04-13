@@ -75,8 +75,6 @@ function toggleSignIn() {
   }
 
 function initApp() {
-
-
     const firebaseConfig = {
         apiKey: "AIzaSyBxvBY-hT2DigCnNSY-t4_YQGIG5R4SGfw",
         authDomain: "geotag-8dae5.firebaseapp.com",
@@ -87,6 +85,8 @@ function initApp() {
         appId: "1:649673377801:web:babf09388cdd79387d10d8",
         measurementId: "G-C8BT8GRT0C"
       };
+
+      firebase.initializeApp(firebaseConfig);
 
       console.log(firebase);
 
@@ -131,7 +131,8 @@ function initApp() {
 
   window.onload = function() {
     initApp();
-  };
+  }
+
 
 document.addEventListener("DOMContentLoaded", event => {
     const app = firebase.app();
@@ -154,7 +155,6 @@ function googleLogin() {
                 alert('You have already signed up with a different auth provider for that email.');
 
             } else {
-                console.error(error);
             }
         });
     } else {
@@ -179,7 +179,6 @@ function githubLogin() {
             if (errorCode === 'auth/account-exists-with-different-credential') {
                 alert('You have already signed up with a different auth provider for that email.');
             } else {
-                console.error(error);
             }
         });
     } else {

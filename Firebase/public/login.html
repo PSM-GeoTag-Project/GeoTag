@@ -6,15 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
 
-  <!-- update the version number as needed -->
-  <script defer src="/__/firebase/7.13.1/firebase-app.js"></script>
-  <!-- include only the Firebase features as you need -->
-  <script defer src="/__/firebase/7.13.1/firebase-auth.js"></script>
-  <script defer src="/__/firebase/7.13.1/firebase-database.js"></script>
-  <script defer src="/__/firebase/7.13.1/firebase-messaging.js"></script>
-  <script defer src="/__/firebase/7.13.1/firebase-storage.js"></script>
-  <!-- initialize the SDK after all desired features are loaded -->
-  <script defer src="/__/firebase/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
@@ -36,64 +32,61 @@
   </style>
 </head>
 
-<body onload="initializeApp()">
+<body>
 
-  <socialButtons>
-    <a class="btn btn-block btn-social btn-google" onclick="googleLogin()">
-      <span class="fa fa-google"></span> Sign in with Google
-    </a>
+  <div id="loginContainer">
+    <socialButtons>
+      <a class="btn btn-block btn-social btn-google" onclick="googleLogin()">
+        <span class="fa fa-google"></span> Sign in with Google
+      </a>
 
-    <a class="btn btn-block btn-social btn-github" onclick="githubLogin()">
-      <span class="fa fa-github"></span> Sign in with GitHub
-    </a>
-  </socialButtons>
+      <a class="btn btn-block btn-social btn-github" onclick="githubLogin()">
+        <span class="fa fa-github"></span> Sign in with GitHub
+      </a>
+    </socialButtons>
+    <main class="mdl-layout__content mdl-color--grey-100 email-login">
+      <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+
+        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+          <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
+            <h2 class="mdl-card__title-text">Log in or sign up with email</h2>
 
 
-  <main class="mdl-layout__content mdl-color--grey-100 email-login">
-    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            <p>Enter an email and password below and either sign in to an existing account or sign up</p>
 
-      <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <div class="mdl-card__title mdl-color--light-blue-600 mdl-color-text--white">
-          <h2 class="mdl-card__title-text">Log in or sign up with email</h2>
+            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email"
+              placeholder="Email" />
+            &nbsp;&nbsp;&nbsp;
+            <input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password"
+              name="password" placeholder="Password" />
+            <br /><br />
 
+            <div class="d-flex flex-column">
+              <div class="d-flex flex-row">
+                <div class="p-2"><button disabled class="mdl-button mdl-js-button mdl-button--raised"
+                    id="quickstart-sign-in" name="signin">Sign In</button></div>
+                <div class="p-2"><button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-up"
+                    name="signup">Sign Up</button></div>
+              </div>
 
-        </div>
-        <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-          <p>Enter an email and password below and either sign in to an existing account or sign up</p>
-
-          <input class="mdl-textfield__input" style="display:inline;width:auto;" type="text" id="email" name="email"
-            placeholder="Email" />
-          &nbsp;&nbsp;&nbsp;
-          <input class="mdl-textfield__input" style="display:inline;width:auto;" type="password" id="password"
-            name="password" placeholder="Password" />
-          <br /><br />
-
-          <div class="d-flex flex-column">
-            <div class="d-flex flex-row">
-              <div class="p-2"><button disabled class="mdl-button mdl-js-button mdl-button--raised"
-                  id="quickstart-sign-in" name="signin">Sign In</button></div>
-              <div class="p-2"><button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-up"
-                  name="signup">Sign Up</button></div>
+              <div class="d-flex flex-row">
+                <div class="p-2"> <button class="mdl-button mdl-js-button mdl-button--raised" disabled
+                    id="quickstart-verify-email" name="verify-email">Send Email Verification</button></div>
+                <div class="p-2">
+                  <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset"
+                    name="verify-email">Send Password Reset Email</button></div>
+              </div>
             </div>
-
-            <div class="d-flex flex-row">
-              <div class="p-2"> <button class="mdl-button mdl-js-button mdl-button--raised" disabled
-                  id="quickstart-verify-email" name="verify-email">Send Email Verification</button></div>
-              <div class="p-2">
-                <button class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-password-reset"
-                  name="verify-email">Send Password Reset Email</button></div>
+            <!-- <div class="quickstart-user-details-container"> -->
+              Sign-in as: <span id="quickstart-sign-in-status">Unknown</span>
+              <!-- <pre><code id="quickstart-account-details">null</code></pre> -->
             </div>
           </div>
-
-
-
-          <!-- <div class="quickstart-user-details-container"> -->
-            Sign-in as: <span id="quickstart-sign-in-status">Unknown</span>
-            <!-- <pre><code id="quickstart-account-details">null</code></pre> -->
-          </div>
         </div>
-      </div>
-  </main>
+    </main>
+  </div>
 
 
 
