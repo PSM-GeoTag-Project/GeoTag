@@ -7,7 +7,7 @@
     background-color: #ffb300;
     width: 300px;
     border: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .btn-google:hover{
@@ -20,7 +20,7 @@
     width: 300px;
     border: none;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .btn-github:hover, .btn-github:active, .btn-github:focus{
@@ -126,6 +126,13 @@ h3 {
     font-family: 'Pacifico', cursive;
     letter-spacing: 1px;
     text-shadow: 2px 3px 20px #000000;
+}
+
+h4{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px 20px #ffb300;
+    color: #fff;
 }
 
 .page-footer{
