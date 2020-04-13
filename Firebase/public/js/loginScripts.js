@@ -1,4 +1,3 @@
-
 function toggleSignIn() {
     if (firebase.auth().currentUser) {
       firebase.auth().signOut();
@@ -86,9 +85,7 @@ function toggleSignIn() {
 
   firebase.initializeApp(firebaseConfig);
 
-
-function initApp() {
-   
+function initApp() {   
       console.log(firebase);
 
    firebase.auth().onAuthStateChanged(function(user) {
@@ -117,8 +114,8 @@ function initApp() {
           document.getElementById('quickstart-verify-email').disabled = false;
         }
       } else {
-        document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
-        document.getElementById('quickstart-sign-in').textContent = 'Sign in';
+        document.getElementById('quickstart-sign-in-status').textContent = 'Signed Out';
+        document.getElementById('quickstart-sign-in').textContent = 'Sign In';
         // document.getElementById('quickstart-account-details').textContent = 'null';
       }
       document.getElementById('quickstart-sign-in').disabled = false;
@@ -131,10 +128,9 @@ function initApp() {
   }
 
   window.onload = function() {
+    pageVerticalResolution();
     initApp();
-
   }
-
 
 function googleLogin() {
     if (!firebase.auth().currentUser) {

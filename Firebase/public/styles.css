@@ -5,8 +5,9 @@
 
 .btn-google{
     background-color: #ffb300;
-    width: 270px;
+    width: 300px;
     border: none;
+    font-size: 25px;
 }
 
 .btn-google:hover{
@@ -16,26 +17,34 @@
 
 .btn-github{
     background-color: #ffb300;
-    width: 270px;
+    width: 300px;
     border: none;
     margin-top: 10px;
-
+    font-size: 25px;
 }
 
-.btn-github:hover{
+.btn-github:hover, .btn-github:active, .btn-github:focus{
     background-color: #424242;
     color: #ffffff !important;
 }
 
 .accountButton{
-    background-color: #424242;
+    background-color: #ffc107;
+    border: none;
     color: #ffffff !important;
     margin-top: 10px;
     margin-right: 10px;
     width: 255px;
-    margin-left: 10px;
-    }
+    margin-left: 10px;    
+}
 
+.accountButton:hover{
+    background-color: #ffb300;
+}
+
+.accountButton:active, .accountButton:focus{
+    box-shadow: none;
+}
 .email-login{
     margin-top: 40px;
 }
@@ -57,6 +66,12 @@
     height: 50px;
     width: 100px;
 }
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
 img {
     background: rgba(0, 0, 0, 0.5);
 }
@@ -116,6 +131,8 @@ h3 {
 .page-footer{
     background-color: #ffc107;
     box-shadow: 0px 10px -13px -11px #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 .wrap {
@@ -124,6 +141,7 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
 
 .button {
     position: absolute;
@@ -138,17 +156,21 @@ h3 {
     background-color: #ffb300;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 60px 90px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
 }
 
+.form-control-lg{
+    margin-top: 25px;
+}
+
 .button:hover {
     background-color: #ffc107;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    box-shadow: 0px 15px 40px #ffc107;
     color: #fff;
-    transform: translateY(-7px);
+    transform: translateY(-10px);
 }
 
 body{
