@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <script src="js/index.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/rating.js"></script>
+
 
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
@@ -20,59 +24,94 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
 </head>
 
 <body>
 
-    <div id="navbar" class="pos-f-t">
-        </div>
-        <nav class="navbar navbar-custom">
-            <button class="navbar-toggler">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <p class="navbar-brand mb-0 h1">Signed as: <span id="quickstart-sign-in-status">Unknown</span> </p>
-        </nav>
-    </div>
+<div id="navbar" class="pos-f-t">
+</div>
+<nav class="navbar navbar-custom">
+    <button class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <p class="navbar-brand mb-0 h1">Signed as: <span id="quickstart-sign-in-status">Unknown</span> </p>
+</nav>
+</div>
 
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1>Stary kamieniołom</h1>
-            <h4>Opuszczone miejsce otoczone naturą.</h4>
-        </div>
-    </div>
 
+<div class="jumbotron jumbotron-fluid text-center">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                ogolny opis
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </div>
-            <div class="col-md-6">
-                src="images/kamieniolom_test.jpg"
-            </div>
-        </div>
+        <h2 id="landmark_name">Stary kamieniołom</h2>
+        <h5 id="landmark_short_description">Opuszczone miejsce otoczone naturą.</h5>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                lewy dol
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </div>
-            <div class="col-md-6">
-                prawy dol
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </div>
-        </div>
-    </div>
+</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12x">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 nice-text">
+            W kamieniołomie Liban wapienie wydobywano już od XIV wieku. Najstarsza część tego kamieniołomu to łom „Za Torem”. Przy wejściu do niego znajduje się niewielki budynek z napisem „Szczęść Boże".
+            Nazwa kamieniołomu pochodzi od żydowskiego przedsiębiorcy o nazwisku Bernard Liban. Jego firma produkowała kamień łamany fundamentowy i brukowy oraz wapno budowlane i nawozowe. Pod koniec XIX wieku jako firma „Kamieniołomy i wapienniki Libana i Ehrenpreisa” była największą w tej branży firmą w Krakowie. W październiku 1942 r. przejęli ją okupanci niemieccy i założyli Obóz Karny Służby Budowlanej, znany pod potoczną nazwą Liban, a więźniowie tego obozu pracowali w kamieniołomie. Jedna z więżniarek pisze: Mrozy były ostre, wiatr dął i ścinał nam skórę na policzkach. 70 kobiet więźniarek ze mną na czele ciągło pięć lorek pełnych kamieni zamiast maszyny parowej.
+            Kamieniołom funkcjonował również po II wojnie światowej. Ostatecznie zamknięto go w 1986 r. i przekazano nowo powstałej fundacji miejskiej. Planowała ona przekształcić kamieniołom w „Podgórski Zespół Wypoczynkowy”. Brak środków finansowych i protesty przeciwników tego centrum spowodowały, że projektu nie zrealizowano, a kamieniołom przekazano Przedsiębiorstwu Gospodarki Komunalnej, które nieudolnie zarządzało nim w latach 1988–2004. Do 2020 roku w kamieniołomie nic się nie dzieje. Piece do wypalania wapieni, stalowe młyny i inny sprzęt niszczeją, a kamieniołom zarasta drzewami.
+
+        </div>
+        <div class="col-md-6">
+            <img src="images/kamieniolom_test.png" class="img-fluid" alt="kamieniolom_test">
         </div>
     </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <br> Wyrobisko kamieniołomu ma powierzchnię 18 ha. W 1993 roku na terenie kamieniołomu realizowano sceny do filmu „Lista Schindlera”.
+        </div>
+        <div class="col-md-6">
+            <div class="table-responsive-md">
+                <table class="table">
+                    <caption></caption>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Place</th>
+                        <td>city-centre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Created</th>
+                        <td>1875</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cost</th>
+                        <td>free</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Time to spend</th>
+                        <td>4 hours</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bus stop</th>
+                        <td>Bonarka</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Type</th>
+                        <td>Building ruins</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="map"></div>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxvBY-hT2DigCnNSY-t4_YQGIG5R4SGfw&callback=initMap">
+        </script>
+
+    </div>
+</div>
+
+
+
 </body>
 </html>
