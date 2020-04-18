@@ -122,6 +122,15 @@ h1 {
      text-shadow: -4px 6px 7px #A8803D;
  }
 
+
+h2 {
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: #ffffff;
+text-shadow: -2px 3px 4px rgba(150, 150, 150, 0.77);
+}
+
 h3 {
     font-family: 'Pacifico', cursive;
     letter-spacing: 1px;
@@ -135,6 +144,13 @@ h4{
     color: #fff;
 }
 
+h5{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+text-shadow: -2px 3px 4px rgba(150, 150, 150, 0.77);
+    color: #fff;
+
+}
 .page-footer{
     background-color: #ffc107;
     box-shadow: 0px 10px -13px -11px #000000;
@@ -181,9 +197,10 @@ h4{
 }
 
 body{
-overflow: hidden;
 min-width:450px;
+background: linear-gradient(to bottom, #F1F1F1 0%, #ffffff 100%);
 }
+
 
 .pos-f-t{
 position: relative; z-index: 4000;
@@ -204,4 +221,18 @@ position: relative; z-index: 4000;
     pointer-events: auto;
      transition: 1s ease;
     opacity: 100;
+}
+
+ #map {
+    height: 400px;
+    width: 100%;
+   }
+
+ .jumbotron {
+   background-color:transparent;
+   }
+
+.nice-text{
+  text-align: justify;
+  text-justify: inter-word;
 }
