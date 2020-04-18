@@ -1,4 +1,5 @@
 function initMap() {
+
           data.get().then(function (doc) {
               if (doc && doc.exists) {
                   const myData = doc.data()
