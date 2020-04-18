@@ -49,6 +49,25 @@
     margin-top: 40px;
 }
 
+.link-button{
+    background-color: #ffc107;
+    border-color: white;
+    border-width: 2px;
+}
+
+.link-button:hover{
+    background-color:#ffb300;
+    border-color: white;
+    border-width: 2px;
+}
+
+.link-button:active, .link-button:focus{
+    box-shadow: none;
+    border-color: white;
+    border-width: 2px;
+}
+
+
 .center{
     display: flex;
     align-items: center;
@@ -73,7 +92,7 @@
 }
 
 img {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-toggler:focus, .navbar-toggler{
@@ -149,7 +168,10 @@ h5{
     letter-spacing: 1px;
 text-shadow: -2px 3px 4px rgba(150, 150, 150, 0.77);
     color: #fff;
+}
 
+h6{
+    color: #fff;
 }
 .page-footer{
     background-color: #ffc107;
@@ -235,4 +257,23 @@ position: relative; z-index: 4000;
 .nice-text{
   text-align: justify;
   text-justify: inter-word;
+}
+
+.star{
+  color: #ffc107;
+  font-size: 2.5rem;
+  padding: 0 1rem; /* space out the stars */
+}
+.star::before{
+  content: '\2606';
+  cursor: pointer;
+}
+.star:hover::before{
+  /* the :hover should come first */
+  content: '\2605';
+  color: #ffb300;
+}
+.star.rated::before{
+  /* the :hover should come first */
+  content: '\2605';
 }
