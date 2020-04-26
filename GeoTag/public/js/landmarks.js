@@ -12,8 +12,15 @@
 
   firebase.initializeApp(firebaseConfig);
 
+
+
  var firestore = firebase.firestore();
-      const data = firestore.doc("GeoTag/1")
+     var searchURL = window.location.search;
+     var lastChar = searchURL.substr(searchURL.length - 1);
+     document.getElementById("landmarkPhoto").src = "https://firebasestorage.googleapis.com/v0/b/geotag-8dae5.appspot.com/o/" + lastChar + ".jpg?alt=media";
+
+
+      const data = firestore.doc("GeoTag/" + lastChar)
           data.get().then(function (doc) {
               if (doc && doc.exists) {
                   const myData = doc.data()
@@ -33,3 +40,4 @@
           }).catch(function (error) {
               console.log("error: ", error)
       })
+
