@@ -129,7 +129,7 @@ img {
 
 .carousel-caption{
     position:absolute;
-    top:30%;
+    margin-bottom: 20%;
 }
 
 h1 {
@@ -205,6 +205,7 @@ h6{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
+    margin-top: 20%;
 }
 
 .form-control-lg{
@@ -276,4 +277,8 @@ position: relative; z-index: 4000;
 .star.rated::before{
   /* the :hover should come first */
   content: '\2605';
+}
+
+.nice-text{
+    padding-bottom: 15px;
 }

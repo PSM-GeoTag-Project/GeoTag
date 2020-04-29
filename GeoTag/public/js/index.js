@@ -19,3 +19,9 @@ function transShow() {
 function transShow() {
     $("#loginContainer").addClass("enablebutton");
 }
+
+function visitLandmark()
+{
+    var numberOfLandmark = Math.floor(Math.random() * 10) + 1;
+    window.location= window.location.hostname + 'landmarks.html?filter=' + numberOfLandmark;
+}
