@@ -8,7 +8,6 @@ function addListeners(){
   var stars = document.querySelectorAll('.star');
   [].forEach.call(stars, function(star, index){
     star.addEventListener('click', (function(idx){
-      console.log('adding rating on', index);
       document.querySelector('.stars').setAttribute('data-rating',  idx + 1);
       console.log('Rating is now', idx+1);
       setRating();
@@ -18,15 +17,24 @@ function addListeners(){
 }
 
 function setRating(){
-  var stars = document.querySelectorAll('.star');
-  var rating = parseInt( document.querySelector('.stars').getAttribute('data-rating') );
-  [].forEach.call(stars, function(star, index){
-    if(rating > index){
-      star.classList.add('rated');
-      console.log('added rated on', index );
-    }else{
-      star.classList.remove('rated');
-      console.log('removed rated on', index );
+  var uluru;
+  data.get().then(function (doc) {
+    if (doc && doc.exists) {
+      const myData = doc.data()
+       uluru = Number(myData.Rating);
+      var stars = document.querySelectorAll('.star');
+      var rating = uluru;
+      [].forEach.call(stars, function(star, index){
+        if(rating > index){
+          star.classList.add('rated');
+        }else{
+          star.classList.remove('rated');
+        }
+      });
     }
-  });
+  }).catch(function (error) {
+    console.log("error: ", error)
+  })
+
+
 }

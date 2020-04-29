@@ -24,7 +24,7 @@
           data.get().then(function (doc) {
               if (doc && doc.exists) {
                   const myData = doc.data()
-                  console.log(myData)
+                  // console.log(myData)
 
                             document.getElementById("landmark_name").innerHTML = myData.Name;
                             document.getElementById("landmark_short_description").innerHTML = myData.ShortDesc;
@@ -39,5 +39,31 @@
               }
           }).catch(function (error) {
               console.log("error: ", error)
+      });
+
+  const data2 = firestore.doc("GeoTag/"+lastChar + "" )
+  const saveToDataBase = document.querySelector('#saveBook')
+  const ISBN  = document.getElementById("isbn").value;
+  var  rateName ="";
+
+  data2.get().then(function(querySnapshot) {
+      const ranking = querySnapshot.data();
+      const ratingCount = (Object.keys(ranking).length);
+      console.log(ratingCount)
+      rateName = 'rate#' + ratingCount;
+      console.log(rateName);
+  });
+
+
+  saveToDataBase.addEventListener("click", function () {
+      data2.update({
+          rateName : "123"
       })
+  })
+
+
+
+
+
+
 
