@@ -19,6 +19,7 @@ ListPlace  *Kompleks Dolne Młyny Tytanoz�FunFacts  *��Dolne Mły
 GeoTag"0��D(
 j
 
+
 js~geotag-8dae5r
 GeoTag"1z
 MapLat  * z
