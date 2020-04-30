@@ -41,14 +41,14 @@
               console.log("error: ", error)
       });
 
-  const data2 = firestore.doc("GeoTag/"+lastChar + "" )
+  const data2 = firestore.doc("GeoTag/"+ + "2" )
   const saveToDataBase = document.querySelector('#saveBook')
   const ISBN  = document.getElementById("isbn").value;
   var  rateName ="";
 
   data2.get().then(function(querySnapshot) {
       const ranking = querySnapshot.data();
-      const ratingCount = (Object.keys(ranking).length);
+//      const ratingCount = (Object.keys(ranking).length);
       console.log(ratingCount)
       rateName = 'rate#' + ratingCount;
       console.log(rateName);
@@ -57,7 +57,7 @@
 
   saveToDataBase.addEventListener("click", function () {
       data2.update({
-          rateName : "123"
+          rateName : ""
       })
   })
 
