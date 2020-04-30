@@ -1,0 +1,187 @@
+S�tj
+
+js~geotag-8dae5r
+GeoTag"0z
+
+ListTimeToSpend  *2-4hz-ListType  *
+
+restauracje, kino, odpoczynekz
+MapLat  *	50.064831z
+MapLng  *	19.926052zName  *Dolnych Młynówz
+Rating  *4z*
+ShortDesc  *Lets chillout in the cityz1
+ListBusStop  * Kraków AGH/UR, Teatr BagatelazListCost  *
+za darmoz�
+Description  *��Wraz z pojawieniem się przy ul. Dolnych Młynów 10 pierwszych barów i restauracji, zmieniać zaczęła się cała dzielnica. Mieszkańcy narzekali jej nowy – imprezowy charakter. Odwiedzający Kraków turyści mówią zaś, że to najbardziej berliński kawałek miasta.  Teren dawnych zakładów tytoniowych przy ulicy Dolnych Młynów zyskał nowe życie w 2016 r. Po kilkunastu miesiącach od otwarcia pierwszego lokalu stał się epicentrum klubowo-restauracyjnego życia młodych mieszkańców Krakowa, którzy powoli zaczęli uciekać z przepełnionych meleksami i turystami Kazimierza i Rynku.  Dziś w zabytkowych budynkach działa ponad 10 restauracji, kilka klubów i barów, studio tatuażu Zajawa, warsztat litografii Litograf, psi fryzjer o wdzięcznej nazwie Strzyżeł, pracownie architektoniczne i fotograficzna Pracownia Męskich Portretów. Można tu spędzić cały dzień, spacerując od lokalu do lokalu i podglądając różne architektoniczne pomysły na wykończenie postindustrialnych przestrzeni.z
+ListCreated  *2016z
+ListTime  *2016z-
+ListPlace  *Kompleks Dolne Młyny Tytanoz�FunFacts  *��Dolne Młyny czeka w przyszłości rewitalizacja. Właściciel, czyli Immobiliaria Camins Polska, planuje przebudowę terenu, uwzględniając wyburzenie części budynków, budowę hotelu i stworzenie parku. Do tego wymagana jest jednak remediacja gleby, gdyż ta, według badań zleconych przez ICP, a także Urząd Miasta Krakowa, jest skażona m.in. ołowiem, arsenem, cynkiem, kobaltem i niklem.�
+GeoTag"0��D(
+j
+
+
+js~geotag-8dae5r
+GeoTag"1z
+MapLat  * z
+MapLng  * zName  *
+Zakrzówekz
+Rating  *5z3
+ShortDesc  *$"Lake embraced by forest and stonesz
+
+ListTimeToSpend  *4hz
+ListTime  *1990z
+ListCreated  *1990zListCost  *
+za darmoz9
+ListBusStop  *(&Norymberska, Pychowice, Os. Robotniczez�FunFacts  *��Jak głosi legenda, wśród okolicznych urwisk, mistrz Twardowski prowadził szkołę magii i czarnoksięstwa. Pewnego dnia, w wyniku eksplozji laboratorium, powstały skałki, które otrzymały jego imię. W rzeczywistości skałki te zaczęto łączyć z postacią Twardowskiego dopiero pod koniec XIX w., jako że w istocie Twardowski działał na terenie innych skałek – Krzemionek Podgórskich w Podgórzu i tam też była jego pracownia. Nazwa Zakrzówek pochodzi od topograficznego terminu, oznaczającego niegdyś miejsce za krzami (krzakami). W czasie II wojny światowej, gdy teren był wykorzystywany jako kamieniołom, od września 1940 r. do października 1941 r. pracował w nim Karol Wojtyła.z�
+
+Description  *�
+�
+Zalew Zakrzówek – sztuczny zbiornik wodny w Krakowie na Zakrzówku. Powstał w 1990 r. po zalaniu starego kamieniołomu wapienia. Składa się z dwóch zbiorników, połączonych przesmykiem. Brzegi zalewu stanowią jedno z ulubionych miejsc wypoczynku krakowian, jednak kąpiel w zalewie jest zabroniona z powodu ryzyka utonięć. Uroczysko Skałki Twardowskiego – park miejski w Krakowie, będący fragmentem Lasów Miejskich Krakowa na wzgórzu zrębowym Krzemionki Zakrzowskie. Występują formy krasowe – liczne leje krasowe o głębokości 1-2 m, jaskinie i schroniska. Największa z jaskiń to Jaskinia Twardowskiego. Formami stworzonymi w wyniku działalności ludzkiej na Skałkach Twardowskiego są np.: nieczynne kamieniołomy: Łom Bergera, Skałki Twardowskiego, Kapelanka i Zakrzówek. Dawniej eksploatowano w nich wapienie dla potrzeb budownictwa, później do budowy dróg i do wapienników, a w końcu dla zakładów produkujących sodę; Zalew Zakrzówek – zalew, który powstał w wyniku wypełnienia wodą Wisły wyrobiska po kamieniołomie Zakrzówek. Ma dużą głębokość i przejrzystą wodę, dzięki czemu doskonale nadaje się do nurkowania; wały przeciwpowodziowe – zostały usypane w XIX wieku, a ciągną się wzdłuż brzegów Wisły; pozostałości wybudowanej przez Austriaków Twierdzy Kraków, m.in. szaniec, Kawerna Magazyn.z$ListType  *jezioro, las, skałyza
+ListPlace  *RPzalew Zakrzówek, skałki Twardowskiego, Jaskinia Twardowskiego, pomnik Presleya�
+GeoTag"1F��8	j
+
+js~geotag-8dae5r
+GeoTag"2zName  *Kamieniołom Libanz
+Rating  *5z9
+ShortDesc  **(Old stone-pit in the middle of a reservez�
+Description  *�
+�
+W kamieniołomie Liban wapienie wydobywano już od XIV wieku. Najstarsza część tego kamieniołomu to łom „Za Torem”. Przy wejściu do niego znajduje się niewielki budynek z napisem „Szczęść Boże". Nazwa kamieniołomu pochodzi od żydowskiego przedsiębiorcy o nazwisku Bernard Liban. Jego firma produkowała kamień łamany fundamentowy i brukowy oraz wapno budowlane i nawozowe. Pod koniec XIX wieku jako firma „Kamieniołomy i wapienniki Libana i Ehrenpreisa” była największą w tej branży firmą w Krakowie. W październiku 1942 r. przejęli ją okupanci niemieccy i założyli Obóz Karny Służby Budowlanej, znany pod potoczną nazwą Liban, a więźniowie tego obozu pracowali w kamieniołomie. Jedna z więżniarek pisze: Mrozy były ostre, wiatr dął i ścinał nam skórę na policzkach. 70 kobiet więźniarek ze mną na czele ciągło pięć lorek pełnych kamieni zamiast maszyny parowej. Kamieniołom funkcjonował również po II wojnie światowej. Ostatecznie zamknięto go w 1986 r. i przekazano nowo powstałej fundacji miejskiej. Planowała ona przekształcić kamieniołom w „Podgórski Zespół Wypoczynkowy”. Brak środków finansowych i protesty przeciwników tego centrum spowodowały, że projektu nie zrealizowano, a kamieniołom przekazano Przedsiębiorstwu Gospodarki Komunalnej, które nieudolnie zarządzało nim w latach 1988–2004. z�FunFacts  *��Do 2020 roku w kamieniołomie nic się nie dzieje. Piece do wypalania wapieni, stalowe młyny i inny sprzęt niszczeją, a kamieniołom zarasta drzewami. kamieniolom_test Wyrobisko kamieniołomu ma powierzchnię 18 ha. W 1993 roku na terenie kamieniołomu realizowano sceny do filmu „Lista Schindlera”.z�
+ListPlace  *��Kamieniołom Liban, Rezerwat Przyrody Bonarka, Były Niemiecki Obóz Koncentracyjny Plaszow, Kopiec Kraka, Cmentarz Podgórski, Szary Dom, Święty KrągzB
+ListBusStop  *1/Kraków Podgórze, Podgórze SKA, Kamieńskiegoz
+
+ListTimeToSpend  *5hzListCost  *
+za darmoz=ListType  */-ruiny, rezerwat przyrody, miejsce historycznez
+ListTime  *XIV w.z
+ListCreated  *XIV w.z
+MapLat  *	50.036458z
+MapLng  *	19.954638�
+GeoTag"2��p�j
+
+js~geotag-8dae5r
+GeoTag"3zName  *Bagryz'
+ShortDesc  *Lake with a nice beachz
+Rating  *4z=
+ListBusStop  *,*Lipska, Rzebika, Mały Płaszów, Dworcowaz�
+Description  *��Bagry – zbiornik wodny, powstały w wyniku zatopienia wyrobisk żwirowni. Jest jednym z większych zbiorników wodnych w granicach Krakowa. Na terenie zalewu znajduje się strzeżone w okresie wakacji kąpielisko, trzy przystanie wodne, wypożyczalnia sprzętu wodnego. Organizowane są kursy pierwszej pomocy oraz kursy patentowe. Na obrzeżach zalewu znajdują się również trzy dzikie plaże. W sezonie żeglarskim odbywają się imprezy i konkursy plenerowe. Plażowicze mogą posilić się w dwóch punktach gastronomicznych działających jedynie w sezonie. Ponadto dzieci mogą skorzystać z położonego nieopodal osiedlowego placu zabaw. Czystość wody jest regularnie kontrolowana przez Sanepid. W sezonie letnim cieszy się zainteresowaniem wśród mieszkańców Krakowa.z�FunFacts  *��Zalew Bagry powstał dopiero w 1945 roku. Wcześniej na jego terenie znajdowały się wyrobiska w których pracowali przymusowo więźniowie z obozu Budienst nr 108 znajdującego się przy ulicy Łukasiewicza (obecnie Kalimacha). Urobek służył przede wszystkim rozbudowie stacji kolejowej Kraków Prokocim. Obóz został zlikwidowany w 1944 roku, ale pompy nadal odprowadzały napływającą wodę do Wisły. Niemcy wyłączyli je kiedy wycofywali się z Krakowa, a napływająca woda w krótkim czasie przykryła wyrobisko zalewając również pozostałą infrastrukturę (m.in. koparki i wagoniki, które do dnia dzisiejszego znajdują się na dnie). Powstały zbiornik nazwano Bagrami od niemieckiego słowa bagger oznaczającego koparkę.zListCost  *
+za darmoz
+
+ListTimeToSpend  *3hz
+
+ListType  *jezioro, plażaz
+ListTime  *1945z
+ListCreated  *1945z:
+ListPlace  *+)kąpielisko, przystań żeglarska, plażaz
+MapLat  *	50.033548z
+MapLng  *	19.991328�
+GeoTag"3�La�j
+
+js~geotag-8dae5r
+GeoTag"4zName  *Kompleks lotnictwaz.
+ShortDesc  *
+
+Abandoned airstrip and hangarz�
+Description  *��Lotnisko Kraków-Rakowice-Czyżyny – dawne, rozformowane lotnisko znajdujące się w krakowskiej dzielnicy Czyżyny. Początkowo zajmowało obszar 55 ha i zawierało bazę oddziału lotniczego: hangary, budynek oficerski, remizę pojazdów transportowych, skład paliwa. Później rozbudowano je o zespół koszar złożony z pięciu budynków, park z kortami tenisowymi, halę balonową i zaplecze techniczne. Pozostałościami infrastruktury lotniska na terenach Czyżyn są obiekty Muzeum Lotnictwa Polskiego, które zajęło część ocalałych zabudowań i Park Kultury i Wypoczynku utworzony w 1966 na niezabudowanych terenach polotniczych (obecnie Park Lotników Polskich).Muzeum rokrocznie, w czerwcu, organizuje Małopolski Piknik Lotniczy. W 2003 na potrzeby lotnicze muzeum i pikniku lotniczego ustanowiono ponownie czynne lądowisko na zachodnim fragmencie dawnej betonowej drogi startowej.z�FunFacts  *��W pobliżu pasa znajduje się również piramida. Biało-czerwoną piramidę zaprojektował artysta Maurycy Gomulicki. Pojawiła się ona w ramach projektu "Wielokulturowość nie działa?", którą od dwóch lat prowadzi Stowarzyszenie im. Ludwiga van Beethovena. Inicjatorzy projektu chcą w ten sposób zachęcić mieszkańców Krakowa do dyskusji o wielokulturowości.zF
+ListBusStop  *53Muzeum Lotnictwa, Jurczaka, Ugorek, Spadochroniarzyz
+
+ListTimeToSpend  *2hzListCost  *
+za darmoz
+ListCreated  *1912zH
+ListPlace  *97ruiny hangaru, pas startowy, piramida, muzeum lotnictwaz
+ListTime  *1912zListType  *
+ruiny, muzeumz
+Rating  *4z
+MapLat  *	50.083806z
+MapLng  *	19.987744�
+GeoTag"4޵-c<j
+
+js~geotag-8dae5r
+GeoTag"5z
+
+ListTimeToSpend  * zName  *
+Małpia wyspaz
+Rating  *4z6
+ShortDesc  *'%Small island placed in Nowa Huta lakez�
+Description  *��Zalew Nowohucki – sztuczny zbiornik wodny oraz otaczający go park znajdują się w starej części Nowej Huty, w obecnej dzielnicy Bieńczyce. Park i zalew, projektu A. Ścigalskiego, oddano do użytku w 1957 roku, jako jeden z obiektów rekreacyjnych Nowej Huty. Zbudowano je na obszarze dwukilometrowej zielonej strefy ochronnej, oddzielającej kombinat metalurgiczny od osiedli mieszkaniowych Nowej Huty. Zajmują obszar ok. 17 ha, w tym powierzchnia samego akwenu to ponad 7 ha. Na wschód od Zalewu, po drugiej stronie Dłubni znajdują się zabudowania dawnej wsi Krzesławice, w tym kilka starych zabytkowych chałup oraz dworek Jana Matejki i drewniany kościół św. Jana Chrzciciela. Nad Zalewem znajduje się „Dom Wędkarza” a miłośnicy wędkarstwa mogą oddawać się swojej pasji czy to rekreacyjnie, czy też sportowo, gdyż akwen jest zarybiany i odbywają się na nim zawody wędkarskie.z�FunFacts  *��Gmina planuje także budowę przystani, amfiteatru, restauracji na wodzie, ma wydać na nie 5 mln. złotych oraz 500 tys. euro z funduszy unijnych. Obecnie część obiektów jest już dostępna dla mieszkańców.z
+ListBusStop  *	Bulwarowaz/ListType  *!
+
+wyspa, zalew, plaża, rekreacjazListCost  *
+za darmoz
+ListCreated  *1957z
+ListTime  *1957z/
+ListPlace  * Małpia wyspa, Zalew nowohuckiz
+MapLat  *	50.079298z
+MapLng  *	20.052748�
+GeoTag"5�
+
+Q��j
+
+js~geotag-8dae5r
+GeoTag"6zName  *Fort "Winnica"z/
+ShortDesc  * Fort in the middle of a forestz
+Rating  *4z
+
+ListTimeToSpend  *1hz
+ListTime  *1898z
+ListCreated  *1898z�
+Description  *��Fort „Winnica” - Fort pancerny zbudowany w latach 1889-1899, będący częścią Szlaku Twierdzy Kraków. To fort pancerny, z zachowanym kompletem pancerzy (wieże pancerne i pancerze działowe w tradytorze), ponadto to ostatni wybudowany fort pancerny w Twierdzy Kraków. Jest unikalnym w formie, górskim fortem pancernym obrony bliskiej - najmniejszym w twierdzy. Wielkie wrażenie robią, kute w skale: - otaczająca fort fosa i prowadząca pod nią poterna, zachowane wieże pancerne i pancerze tradytora oraz walory krajobrazowe i estetyczne. Fort położony na samotnym skalnym wzgórzu – ostańcu w dolinie Wisły, co zapewniało mu bardzo dobre walory obronne, wzmacniane przez mokradła i torfowiska na bliskim przedpolu.z�FunFacts  *��Idąc drogą od Kostrza warto zwrócić uwagę, że dawna droga rokadowa na tym odcinku to wielce osobliwa serpentyna, biegnąca po płaskiej zupełnie równinie; tu wśród moczarów, chodziło oczywiście o wydłużenie drogi przeciwnikowi, aby jak najdłużej przebywał pod ogniem fortecznej broni.z
+
+
+ListBusStop  *Fort WinnicazListCost  *
+za darmoz3
+ListPlace  *$"Fort "Winnica", Uroczysko Skotnikiz ListType  *fort, ruiny, lasz
+MapLat  *	50.023348z
+MapLng  *	19.861999�
+GeoTag"6R-D�j
+
+js~geotag-8dae5r
+GeoTag"7z!Name  *Schrony w Nowej Huciez�
+Description  *��Schronów w Nowej Hucie jest ok. 260. Budowano je w latach 50. pod blokami mieszkalnymi i budynkami użyteczności publicznej. Miały być używane w razie nalotów lotniczych. Schrony pod blokami nie są zbyt atrakcyjne, na co dzień funkcjonowały jako piwnice. W razie ogłoszenia stanu zagrożenia mieszkańcy w ciągu trzech dni mieli je opróżnić i przygotować do użytku. Największe, zachowane w niezmienionej formie, dwa schrony znajdują się pod budynkami administracyjnymi dawnej Huty im. Lenina, potem Huty im. Sendzimira, a obecnie Arcelor Mittal. "Pod budynkiem +S+ znajduje się stanowisko dowodzenia kombinatem na wypadek kryzysu, z niemal kompletnym, oryginalnym wyposażeniem z końca lat 50. To chyba jedyne takie miejsce w Polsce, właściwe gotowe do zwiedzania. Należałoby je jedynie właściwie zabezpieczyć" – powiedział PAP Tomasz Mierzwa z Małopolskiego Stowarzyszenia Miłośników Historii Rawelin, współautor koncepcji trasy turystycznej. Największe wrażenie na osobach wchodzących do tego schronu robi sala dowodzenia wypełniona pulpitami z telefonami.z�FunFacts  *��Wokół nowohuckich schronów narosło wiele mitów. Jeden z nich głosi, że pod całą Nową Hutą jest drugie, podziemne miasto, po którym można poruszać się, nie wychodząc na powierzchnię. Do dziś można spotkać mieszkańców opowiadających, jak to przed laty weszli do podziemi na jednym osiedlu, a wyszli w zupełnie innej części dzielnicy.z
+ListBusStop  *
+KombinatzZListCost  *LJza darmo, 229 zł - część trasy z przewodnikiem (wstęp wolny do kilku)z
+ListTime  *1-4hz"ListType  *schrony, podziemiazQ
+ListPlace  *B@Schrony w Nowej Hucie - ok. 260 schronów, Huta im. T.Sędzimiraz
+ListCreated  *	1950-1960z 
+
+ListTimeToSpend  *	1950-1960z
+Rating  *4z%
+ShortDesc  *Underground sheltersz
+MapLat  *	50.078515z
+MapLng  *	20.067282�
+GeoTag"7T�]j
+js~geotag-8dae5r
+GeoTag"8zName  *Kładka Bernatkaz#
+ShortDesc  *The Lovers' Bridgez
+Rating  *4z�
+Description  *��Kładka Ojca Bernatka – kładka pieszo-rowerowa na Wiśle w Krakowie łącząca Kazimierz z Podgórzem, zbudowana w miejscu dawnego mostu Podgórskiego. Decyzją rady miasta została nazwana imieniem o. Laetusa Bernatka, zakonnika, który na przełomie XIX i XX w. doprowadził do wybudowania budynków szpitala Bonifratrów w Krakowie. Kładka, zbudowana według projektu Autorskiej Pracowni Projektowo-Plastycznej prof. Andrzeja Gettera, ma formę stalowego łuku rozpiętego pomiędzy istniejącymi przyczółkami mostu Podgórskiego, do którego podwieszone są dwa pomosty (jeden dla pieszych, drugi dla rowerzystów). Stalowy łuk ma długość 145 metrów, natomiast pomosty ok. 130 m. Całość konstrukcji waży ponad 700 ton.z�FunFacts  *��Kładka staje się miejscem zakochanych. Na barierze mostu zapięto już setki kłódek z wypisanymi, a nawet wygrawerowanymi na nich imionami, inicjałami, wyrazami miłości, datami. Zakochane pary wieszają kłódkę na moście, zatrzaskują ją, po czym wrzucają kluczyk do Wisły na znak, że ich uczucie pozostanie nierozerwalne do końca życia.zA
+ListBusStop  *0.Korona, Św. Wawrzyńca, Plac Bohaterów GettazListCost  *
+za darmoz
+ListCreated  *2010z!
+ListPlace  *Kładka Bernatkaz
+
+ListTimeToSpend  *0,5hz
+ListTime  *2010zListType  *mostz
+MapLat  *	50.046582z
+MapLng  *	19.947611�
+GeoTag"8�ɠ�T	j
+js~geotag-8dae5r
+GeoTag"9zName  *Kolorowe schodyz
+Rating  *3z.
+ShortDesc  *
+Rainbow stairs with sentencesz�
+
+Description  *�
+�
+Instalacja powstała w ciągu ulicy Tatrzańskiej na krakowskim Podgórzu, między ulicami plac Lasoty i Andrzeja Potebni. Zaułek ten jest rzadko uczęszczany przez krakowian, jeszcze rzadziej przez turystów. Wydaje się, że kolorowe schody prowokować mają przede wszystkim mieszkańców okolicznych domów i przypadkowych turystów, którzy zagubią się w plątaninie uliczek okalających Park Bednarskiego. Ulica Andrzeja Potebni, oficera armii rosyjskiej walczącego w powstaniu styczniowym po stronie Polaków, to najlepsze miejsce by zacząć odkrywanie kolorowych schodów. Zanim pokonamy pierwszy stopień, warto obejrzeć się przez ramię. Ulica Potebni oferuje jedną z najciekawszych perspektyw na Kościół św. Józefa. A jest na co popatrzeć. 55 schodów pomalowanych jest we wszystkich chyba kolorach tęczy. Razem tworzą barwna mozaikę, która bardzo mocno odcina się na tle szarej, sypiącej się kamienicy. Jak ktoś bardzo chce to w umieszczeniu głębokich przemyśleń pod butami przechodniów możne próbować doszukiwać się głębszego sensu, drugiego dna czy innego skłaniania do refleksji. W rzeczywistości to tylko zwykłe schody. Tyle że pomalowane. Schody pomalowane na kolory tęczy naprzemiennie opisane są cytatami i powiedzonkami, które odczytać można wchodząc do góry lub schodząc w dół. Stan “instalacji artystycznej” woła już o ponowne przemalowanie płytek chodnika lub całkowite usunięcie farby. Część napisów jest już dość wytarta. W stanie w którym schody znajdują się wiosną 2019 roku nie wyglądają ani zbyt artystycznie ani zbyt pięknie i kontrastują w sąsiadującymi kamienicami i przepiękną willą do której wejście położone jest w połowie schodów.z�FunFacts  *��Każdy schodek jest inny, każdy niesie mniej lub bardziej poważny przekaz. Do wyboru mamy sentencje Marqueza, Pratchetta, Gandhiego, ale też Leca, Taty Muminka i Włóczykija…z 
+ListPlace  *Kolorowe Schodyz
+ListCreated  *2013z
+ListTime  *2013zListType  *schodyz
+
+ListTimeToSpend  *0,5hzListCost  *
+za darmoz;
+ListBusStop  **(Korona, Limanowskiego, Kraków Podgórzez
+MapLat  *	50.043208z
+MapLng  *	19.952243�
+GeoTag"9V��(M j$js~geotag-8dae5rUser_
+Rating"2znum1  *1213�User_
+Rating"2
