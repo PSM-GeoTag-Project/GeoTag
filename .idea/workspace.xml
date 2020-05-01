@@ -7,13 +7,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeoTag/public/images/GitHub-social.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GeoTag2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoTag/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/GeoTag/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoTag/public/js/landmarks.js" beforeDir="false" afterPath="$PROJECT_DIR$/GeoTag/public/js/landmarks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoTag/public/landmarks.html" beforeDir="false" afterPath="$PROJECT_DIR$/GeoTag/public/landmarks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoTag/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/GeoTag/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587207739665</updated>
-      <workItem from="1588326332133" duration="20080000" />
+      <workItem from="1588326332133" duration="20752000" />
     </task>
     <task id="LOCAL-00001" summary="Little spring clean up">
       <created>1587208147773</created>
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588345958401</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New social">
+      <created>1588351720209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588351720209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +146,14 @@
     <MESSAGE value="Database for landmark information, fetching data, auto center map on Lat and Lng form database" />
     <MESSAGE value="Firebase database filled out" />
     <MESSAGE value="Rating feature added and login verification. Also fixed login name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rating feature added and login verification. Also fixed login name." />
+    <MESSAGE value="New social" />
+    <option name="LAST_COMMIT_MESSAGE" value="New social" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="434" y="358" key="#Notifications" timestamp="1588352378250">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="434" y="358" key="#Notifications/0.0.2560.1410@0.0.2560.1410" timestamp="1588352378250" />
     <state x="36" y="513" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588266679370">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -155,10 +162,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1029" y="563" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410@0.0.2560.1410" timestamp="1587207825094" />
-    <state x="899" y="301" width="1090" height="1012" key="CommitChangelistDialog2" timestamp="1588345957735">
+    <state x="899" y="301" width="1090" height="1012" key="CommitChangelistDialog2" timestamp="1588352401060">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="899" y="301" width="1090" height="1012" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1588345957735" />
+    <state x="899" y="301" width="1090" height="1012" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1588352401060" />
     <state x="1096" y="203" width="1154" height="1109" key="FileChooserDialogImpl" timestamp="1588348337693">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -171,10 +178,14 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="796" y="349" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1588327887910" />
-    <state x="872" y="439" key="Vcs.Push.Dialog.v2" timestamp="1588345984392">
+    <state x="872" y="439" key="Vcs.Push.Dialog.v2" timestamp="1588351733337">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="439" key="Vcs.Push.Dialog.v2/0.0.2560.1410@0.0.2560.1410" timestamp="1588345984392" />
+    <state x="872" y="439" key="Vcs.Push.Dialog.v2/0.0.2560.1410@0.0.2560.1410" timestamp="1588351733337" />
+    <state x="588" y="434" key="VcsDiffUtil.ChangesDialog" timestamp="1588352392756">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="588" y="434" key="VcsDiffUtil.ChangesDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1588352392756" />
     <state x="977" y="531" key="com.intellij.ide.util.TipDialog" timestamp="1588268042588">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -199,6 +210,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1089" y="571" key="git4idea.rebase.GitRebaseDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1588268149217" />
+    <state x="647" y="545" key="git4idea.ui.GitTagDialog" timestamp="1588352410153">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="647" y="545" key="git4idea.ui.GitTagDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1588352410153" />
     <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1588267389623">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
