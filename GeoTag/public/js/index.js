@@ -23,5 +23,20 @@ function transShow() {
 function visitLandmark()
 {
     var numberOfLandmark = Math.floor(Math.random() * 10) + 1;
-    window.location= window.location.hostname + 'landmarks.html?filter=' + numberOfLandmark;
+    var windowName = window.location.href.replace("index.html",  'landmarks.html?filter=' + numberOfLandmark);
+    window.location = windowName;
+}
+
+window.addEventListener('load', () => {
+    registerSW();
+});
+
+async function registerSW() {
+    if ('serviceWorker' in navigator) {
+        try {
+            await navigator.serviceWorker.register('sw.js');
+        } catch (e) {
+            console.log(`SW registration failed`);
+        }
+    }
 }
