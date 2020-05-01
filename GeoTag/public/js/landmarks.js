@@ -12,7 +12,7 @@
 
   firebase.initializeApp(firebaseConfig);
 
-
+var ratingDatabaseValue = 0;
 
  var firestore = firebase.firestore();
      var searchURL = window.location.search;
@@ -41,26 +41,95 @@
               console.log("error: ", error)
       });
 
-  const data2 = firestore.doc("GeoTag/"+ + "2" )
-  const saveToDataBase = document.querySelector('#saveBook')
-  const ISBN  = document.getElementById("isbn").value;
-  var  rateName ="";
-
-  data2.get().then(function(querySnapshot) {
-      const ranking = querySnapshot.data();
-//      const ratingCount = (Object.keys(ranking).length);
-      console.log(ratingCount)
-      rateName = 'rate#' + ratingCount;
-      console.log(rateName);
-  });
-
-
-  saveToDataBase.addEventListener("click", function () {
-      data2.update({
-          rateName : ""
-      })
+  var userNameToDisplay = ""
+  firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+          var displayName = user.displayName;
+          var email = user.email;
+          console.log('Current loged user: ' + user.displayName);
+          if (user.displayName == null) {
+              userNameToDisplay = email;
+          } else {
+              userNameToDisplay = user.displayName;
+          }
+          document.getElementById('quickstart-sign-in-status').textContent = ` ${userNameToDisplay}`;
+      }
   })
 
+
+  const  data2 = firestore.doc("GeoTag/" + lastChar )
+  data2.get().then(function(querySnapshot) {
+      const ranking = querySnapshot.data();
+      ratingDatabaseValue = ranking.Rating;
+      for (var i=0; i<ratingDatabaseValue.length;i++)
+      {
+          sumOfRating = sumOfRating + parseInt(ratingDatabaseValue.charAt(i));
+      }
+      var avgRating = sumOfRating/ratingDatabaseValue.length;
+
+      document.getElementById("avgRating").innerHTML = avgRating.toFixed(3) +" / 5";
+  });
+
+document.addEventListener('DOMContentLoaded', function(){
+    addListeners();
+    setRating();
+});
+
+
+
+function addListeners(){
+    var stars = document.querySelectorAll('.star');
+    [].forEach.call(stars, function(star, index){
+        star.addEventListener('click', (function(idx){
+            document.querySelector('.stars').setAttribute('data-rating',  idx + 1);
+            // console.log('User rated: ',idx+1 );
+            setRating();
+
+            var ratingString = ratingDatabaseValue + (idx+1).toString();
+
+            if(userNameToDisplay == "Unknown" || userNameToDisplay == "Signed Out" || userNameToDisplay == "")
+            {
+                alert("You must be loged in to rate this place!");
+            }
+            else {
+                data2.update({
+                    Rating : ratingString
+                })
+            }
+        }).bind(window,index) );
+    });
+
+}
+
+var sumOfRating = 0;
+
+function setRating(){
+    const  data3 = firestore.doc("GeoTag/" + lastChar )
+    data3.get().then(function (doc) {
+        if (doc && doc.exists) {
+            const myData = doc.data()
+
+            for (var i=0; i<(myData.Rating).length;i++)
+            {
+                sumOfRating = sumOfRating + parseInt(myData.Rating.charAt(i));
+            }
+            var avgRating = sumOfRating/(myData.Rating).length;
+        }
+
+        var stars = document.querySelectorAll('.star');
+        [].forEach.call(stars, function(star, index){
+            if(Math.round(avgRating) > index){
+                star.classList.add('rated');
+            }else{
+                star.classList.remove('rated');
+            }
+        });
+    }).catch(function (error) {
+        console.log("error: ", error)
+    })
+
+
+}
 
 
 
