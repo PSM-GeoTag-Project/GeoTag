@@ -2,7 +2,11 @@ function pageVerticalResolution() {
     var navbarHeight = document.getElementById('navbar').clientHeight;
     var footerHeight = document.getElementById('footer').clientHeight;
     var finalCarouselHeight = window.innerHeight - navbarHeight - footerHeight + "px";
-    document.getElementById("carousel-inner-ID").style.height = finalCarouselHeight ;
+    try {
+    document.getElementById("carousel-inner-ID").style.height = finalCarouselHeight;
+    }
+    catch (e) {      
+    }
 }
 
 window.onresize = pageVerticalResolution;
