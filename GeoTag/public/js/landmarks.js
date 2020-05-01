@@ -67,7 +67,7 @@ var ratingDatabaseValue = 0;
       }
       var avgRating = sumOfRating/ratingDatabaseValue.length;
 
-      document.getElementById("avgRating").innerHTML = avgRating.toFixed(3) +" / 5";
+      document.getElementById("avgRating").innerHTML = avgRating.toFixed(1) +" / 5";
   });
 
 document.addEventListener('DOMContentLoaded', function(){

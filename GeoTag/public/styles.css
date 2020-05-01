@@ -166,6 +166,7 @@ h4{
 h5{
     font-family: 'Pacifico', cursive;
     letter-spacing: 1px;
+    font-size: 30px;
 text-shadow: -2px 3px 4px rgba(150, 150, 150, 0.77);
     color: #fff;
 }
