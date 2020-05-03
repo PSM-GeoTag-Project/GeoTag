@@ -130,12 +130,12 @@ img {
 
 .carousel-caption{
     position:absolute;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .carousel-caption2{
     position:absolute;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     position: absolute;
         right: 15%;
         bottom: 20px;
