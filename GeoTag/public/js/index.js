@@ -1,9 +1,13 @@
 function pageVerticalResolution() {
     var navbarHeight = document.getElementById('navbar').clientHeight;
     var footerHeight = document.getElementById('footer').clientHeight;
-    var finalCarouselHeight = window.innerHeight - navbarHeight - footerHeight + "px";
+    var finalCarouselHeight = window.innerHeight - navbarHeight - footerHeight;
+    if(finalCarouselHeight < 760)
+    {
+        finalCarouselHeight= 800;
+    }
     try {
-    document.getElementById("carousel-inner-ID").style.height = finalCarouselHeight;
+    document.getElementById("carousel-inner-ID").style.height = finalCarouselHeight + "px";
     }
     catch (e) {      
     }
@@ -18,6 +22,7 @@ function transHide() {
 function transShow() {
     var element = document.getElementById("loginContainer");
     element.classList.remove("disabledbutton");
+
 }
 
 function transShow() {

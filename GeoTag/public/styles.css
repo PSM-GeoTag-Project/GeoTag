@@ -89,6 +89,7 @@
 .navbar-brand{
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    font-size: 100%;
 }
 
 img {
@@ -131,6 +132,21 @@ img {
     position:absolute;
     margin-bottom: 20%;
 }
+
+.carousel-caption2{
+    position:absolute;
+    margin-bottom: 10%;
+    position: absolute;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+}
+
 
 h1 {
      font-family: 'Lobster', cursive;
